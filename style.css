@@ -1,0 +1,30 @@
+.blocos {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+  }
+  
+  .item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #item1{
+    background-color : rgb(223, 9, 212);
+    order: 3;
+  }
+
+  #item2{
+    background-color : rgb(8, 44, 112);
+    order: 1;
+  }
+
+  #item3{
+    background-color : rgb(145, 214, 16);
+  }
